@@ -53,24 +53,6 @@
     <link rel="manifest" href="/manifest.json">
     <!-- 51.LA 统计 -->
     <script src="./js/51LA.js"></script>
-     <!-- 动态标题 -->
-    <script type="text/javascript">
-     var OriginTitile = document.title,
-      titleTime;
-     document.addEventListener("visibilitychange",
-     function() {
-      if (document.hidden) {
-        document.title = "你别走吖 Σ(っ °Д °;)っ";
-        clearTimeout(titleTime)
-    } else {
-        document.title = "你可算回来了╮(◕ࡇ◕)╭" ;
-        titleTime = setTimeout(function() {
-            document.title = OriginTitile
-        },
-        2000)
-    }
-    });
-    </script>
     
 </head>
 
